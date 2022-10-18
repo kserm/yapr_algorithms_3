@@ -17,6 +17,6 @@ if __name__ == '__main__':
     n = int(input())
     arr = [int(i) for i in input().split()]
     x = int(input())
-    index = binarySearch(arr, x, left = 0, right = len(arr))
-    index_2 = binarySearch(arr, 2*x, left = 0, right = len(arr))
+    index = binarySearch(arr, x, left=0, right=len(arr))
+    index_2 = binarySearch(arr, 2*x, left=0, right=len(arr))
     print(index, index_2)

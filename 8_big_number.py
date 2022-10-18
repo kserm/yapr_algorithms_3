@@ -18,12 +18,7 @@ def biggest_number(arr, comp):
     return ''.join(arr)
 
 
-# if __name__ == '__main__':
-#     n = int(input())
-#     inp_list = [int(i) for i in input().split()]
-#     print(biggest_number(inp_list))
-
-inp_str = '15 56 2'
-inp_list = [i for i in inp_str.split()]
-print(inp_list)
-print(biggest_number(inp_list, comparator))
+if __name__ == '__main__':
+    n = int(input())
+    inp_list = [int(i) for i in input().split()]
+    print(biggest_number(inp_list))

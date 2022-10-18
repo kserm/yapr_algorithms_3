@@ -11,6 +11,7 @@ def sort_wardrobe(arr):
             crimson.append('2')
     return pink + yellow + crimson
 
+
 if __name__ == '__main__':
     n = int(input())
     inp_arr = input().split()

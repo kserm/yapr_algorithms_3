@@ -13,8 +13,3 @@ if __name__ == '__main__':
     k = int(input())
     for i in get_ids(inp_arr)[:k]:
         print(i[1], end=' ')
-
-inp_arr = [1, 2, 2, 3, 1, 2, 3, 4]
-k = 3
-for i in get_ids(inp_arr)[:k]:
-    print(i[1], end=' ')

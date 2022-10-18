@@ -6,7 +6,7 @@ def parenthesis_generator(n, i=0, j=0, res=''):
             parenthesis_generator(n, i + 1, j, res + '(')
         if i > j:
             parenthesis_generator(n, i, j + 1, res + ')')
-            
+
 
 if __name__ == '__main__':
     n = int(input())

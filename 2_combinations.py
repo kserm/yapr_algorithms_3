@@ -9,6 +9,7 @@ KEYBOARD_MAPPING = {
     9: 'wxyz'
 }
 
+
 def keyboard_combinations(numbers):
     if numbers == '':
         return ['']

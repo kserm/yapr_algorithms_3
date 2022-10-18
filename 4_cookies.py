@@ -9,7 +9,7 @@ def get_satisfied_kids(gr: list, cks: list) -> int:
                 s += 1
                 cks.pop()
     return s
-                
+
 
 if __name__ == '__main__':
     kids = input()
